@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      
+  
+      var firebaseConfig = {
+  apiKey: "AIzaSyD2yzwJcg0q2Oql7D_W-D29-AQmxp9I91g",
+  authDomain: "math-barbie.firebaseapp.com",
+  databaseURL: "https://math-barbie-default-rtdb.firebaseio.com",
+  projectId: "math-barbie",
+  storageBucket: "math-barbie.appspot.com",
+  messagingSenderId: "938470296546",
+  appId: "1:938470296546:web:eca15cf3b640e28173c7bb"
+};
+
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+     <script src="js/register2Form.js"></script>
+     <script src="js/eng1Form.js"></script>
+     <script src="js/sci1Form.js"></script>
+     <script src="js/ssci1Form.js"></script>
+     <script src="js/eng3Form.js"></script>
+     <script src="js/sci3Form.js"></script>
+     <script src="js/ssci3Form.js"></script>
+     <script src="js/eng4Form.js"></script>
+     <script src="js/sci4Form.js"></script>
+     <script src="js/ssci4Form.js"></script>
+     <script src="js/eng5Form.js"></script>
+     <script src="js/sci5Form.js"></script>
+     <script src="js/ssci5Form.js"></script>
+     <script src="js/eng6Form.js"></script>
+     <script src="js/sci7Form.js"></script>
+     <script src="js/ssci7Form.js"></script>
+     <script src="js/eng8Form.js"></script>
+     <script src="js/sci8Form.js"></script>
+     <script src="js/ssci8Form.js"></script>
+     <script src="js/eng9Form.js"></script>
+     <script src="js/sci9Form.js"></script>
+     <script src="js/ssci9Form.js"></script>
+     <script src="js/eng10Form.js"></script>
+     <script src="js/sci10Form.js"></script>
+     <script src="js/ssci10Form.js"></script>
+     <script src="js/eng11Form.js"></script>
+     <script src="js/sci11Form.js"></script>
+     <script src="js/ssci11Form.js"></script>
+     <script src="js/eng12Form.js"></script>
+     <script src="js/sci12Form.js"></script>
+     <script src="js/sci6Form.js"></script>
+     <script src="js/ssci12Form.js"></script>
+     <script src="js/ssci6Form.js"></script>
+     <script src="js/eng2Form.js"></script>
+     <script src="js/eng7Form.js"></script>
+     <script src="js/math2Form.js"></script>
+     <script src="js/math1Form.js"></script>
+     <script src="js/math3Form.js"></script>
+     <script src="js/math4Form.js"></script>
+     <script src="js/math5Form.js"></script>
+     <script src="js/math6Form.js"></script>
+     <script src="js/math7Form.js"></script>
+     <script src="js/math8Form.js"></script>
+     <script src="js/math9Form.js"></script>
+     <script src="js/math10Form.js"></script>
+     <script src="js/math11Form.js"></script>
+     <script src="js/math12Form.js"></script>
+     <script src="js/sci2Form.js"></script>
+     <script src="js/ssci2Form.js"></script>
+     <script src="js/registerForm.js"></script>
+    <script src="js/loginForm.js"></script>
+    <script src="js/login2Form.js"></script>
+    <script src="js/subForm.js"></script>
+    <script src="js/webForm.js"></script>
+    <script src="js/login3Form.js"></script>
+    <script src="js/sub8Form.js"></script>
+   <script src="js/sub9Form.js"></script>
+   <script src="js/sub10Form.js"></script>
+   <script src="js/sub11Form.js"></script>
+   <script src="js/sub12Form.js"></script>
+   <script src="js/tsub2Form.js"></script>
+   <script src="js/tsub3Form.js"></script>
+   <script src="js/tsub4Form.js"></script>
+  <script src="js/tsub5Form.js"></script>
+  <script src="js/tsub6Form.js"></script>
+  <script src="js/tsub7Form.js"></script>
+  <script src="js/tsub8Form.js"></script>
+  <script src="js/tsub9Form.js"></script>
+  <script src="js/sub6Form.js"></script>
+  <script src="js/sub5Form.js"></script>
+  <script src="js/tsub10Form.js"></script>
+  <script src="js/tsub11Form.js"></script>
+ <script src="js/tsub12Form.js"></script>
+ <script src="js/tsubForm.js"></script>
+ <script src="js/sub2Form.js"></script>
+ <script src="js/sub3Form.js"></script>
+ <script src="js/sub4Form.js"></script>
+ <script src="js/sub77Form.js"></script>
+ <script src="js/category11Arts.js"></script>
+ <script src="js/category11Com.js"></script>
+ <script src="js/category11Medical.js"></script>
+ <script src="js/category11Non.js"></script>
+ <script src="js/category12Arts.js"></script>
+ <script src="js/category12Com.js"></script>
+ <script src="js/category12Medical.js"></script>
+ <script src="js/category12Non.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
